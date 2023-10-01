@@ -1,10 +1,17 @@
 import './App.css'
+{/*import AboutUs from './components/AboutUs'*/}
 import Header from './components/Header'
+import HeroSection from './components/HeroSection'
 
-function App() {
+
+const App = () => {
 
   return (
-    <Header />
+    <>
+      <Header />
+      <HeroSection />
+      {/*<AboutUs />*/}
+    </>
   )
 }
 
