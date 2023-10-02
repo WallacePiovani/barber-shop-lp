@@ -13,7 +13,7 @@ const AboutUs = () => {
         {/*<img src="/src/assets/aboutus.jpg" className=""></img>*/}
       </div>
       <div className="flex flex-col gap-6  items-center justify-center">
-          <img src="./src/assets/aboutus.jpg" className=""></img>
+          <img src={"./src/assets/aboutus.jpg"} className=""></img>
           <h3 className="font-openSans text-branco2 font-bold text-3xl">"Mantendo viva a tradição dos clássicos cortes de cabelo  masculinos"</h3>
           <p className="font-openSans text-branco2 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, ut sequi rerum praesentium iure reiciendis suscipit at? Quod atque nihil, tempore accusantium, molestias neque amet voluptatum eveniet ducimus fugit eum?</p>
           <p className="font-openSans text-branco2 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis atque ipsa consequuntur, esse minus commodi ea quisquam!</p>      
