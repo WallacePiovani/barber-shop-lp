@@ -1,5 +1,5 @@
 import './App.css'
-{/*import AboutUs from './components/AboutUs'*/}
+import AboutUs from './components/AboutUs'
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 
@@ -10,7 +10,7 @@ const App = () => {
     <>
       <Header />
       <HeroSection />
-      {/*<AboutUs />*/}
+      <AboutUs />
     </>
   )
 }
