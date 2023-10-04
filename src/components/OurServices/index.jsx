@@ -15,6 +15,8 @@ const OurServices = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione molestiae iure nostrum natus ad laborum corrupti officia facere? Ut voluptatibus nulla ex commodi. Officia vero accusantium aut numquam architecto.</p>
                 <p><strong className="font-bold font-openSans uppercase">Tempo</strong> - 1 Hora</p>
                 <p><strong className="font-bold font-openSans uppercase">Preço</strong> - R$70</p>
+                <a href="#" className="mt-5 ml-0 bg-marrom p-5 border border-solid border-marrom px-16 py-4 font-openSans text-preto text-lg mr-auto text-center">Agendar</a>
+
             </div>
         </div>
     </section>
