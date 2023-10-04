@@ -1,15 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import HorizontalLine from "../HorizontalLine";
+
+
+
 const AboutUs = () => {
 
-  const horizontalLine = `h-0.5 w-24 my-1 rounded bg-marrom`;
-
   return (
-    <section className="bg-preto mb-44 text-center flex flex-col justify-center items-center gap-10 px-7">
+    <section className="bg-preto mb-16 text-center flex flex-col justify-center items-center gap-10 px-7">
       <div className="text-center flex flex-row justify-center items-center gap-2">
-        <div className={horizontalLine}/>
+        <HorizontalLine />
           <h2 className="font-openSans text-branco font-bold text-2xl">Sobre Nos</h2>
-        <div className={horizontalLine}/>
+        <HorizontalLine />
         {/*<img src="/src/assets/aboutus.jpg" className=""></img>*/}
       </div>
       <div className="flex flex-col gap-4  items-center justify-center">
