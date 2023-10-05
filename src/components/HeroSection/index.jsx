@@ -2,7 +2,7 @@
 const HeroSection = () => {
     return (
         <section className="flex flex-col px-7 mt-10 gap-3 mb-14 font-openSans">
-            <div className="bg-[url('./src/assets/herosectionbanner.jpg')] bg-no-repeat bg-center bg-cover h-96">
+            <div className="bg-[url('./public/static/img/herosectionbanner.jpg')] bg-no-repeat bg-center bg-cover h-96">
             </div>
             <div className="flex flex-col gap-4">
                 <h1 className="text-5xl text-branco text-center">Cortes clássicos e únicos para o seu estilo</h1>
