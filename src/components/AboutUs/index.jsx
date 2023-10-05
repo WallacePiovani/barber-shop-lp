@@ -19,7 +19,7 @@ const AboutUs = () => {
           <h3 className="font-openSans text-branco2 font-bold text-3xl">"Mantendo viva a tradição dos clássicos cortes de cabelo  masculinos"</h3>
           <p className="font-openSans text-branco2 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, ut sequi rerum praesentium iure reiciendis suscipit at? Quod atque nihil, tempore accusantium, molestias neque amet voluptatum eveniet ducimus fugit eum?</p>
           <p className="font-openSans text-branco2 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis atque ipsa consequuntur, esse minus commodi ea quisquam!</p>      
-          <a href="#" className="bg-preto p-5 border border-solid border-marrom w-1/2 font-openSans text-branco2 text-sm">Mais informações</a>
+          <a href="#" className="bg-preto p-5 border border-solid border-marrom w-3/5 font-openSans text-branco2 text-sm">Mais informações</a>
       </div>
 
     </section>
