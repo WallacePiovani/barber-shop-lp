@@ -9,7 +9,7 @@ const OurServices = () => {
             <HorizontalLine/>
         </div>
         <div className="flex flex-col gap-7 bg-branco2 pb-10" >
-            <img src={"./public/static/img/beardservice.jpg"} className="w-screen h-96" />
+            <img src={"/static/img/beardservice.jpg"} className="w-screen h-96" />
             <div className="flex flex-col gap-4 px-6 text-left text-sm ml-3">
                 <h3 className="font-openSans text-xl font-bold">Barba Masculina</h3>
                 <p className="font-openSans text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione molestiae iure nostrum natus ad laborum corrupti officia facere? Ut voluptatibus nulla ex commodi. Officia vero accusantium aut numquam architecto.</p>
