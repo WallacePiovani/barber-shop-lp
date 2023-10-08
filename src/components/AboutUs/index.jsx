@@ -7,7 +7,7 @@ import HorizontalLine from "../HorizontalLine";
 const AboutUs = () => {
 
   return (
-    <section className="bg-preto mb-16 text-center flex flex-col justify-center items-center gap-10 px-7">
+    <section id="about-us" className="bg-preto mb-16 text-center flex flex-col justify-center items-center gap-10 px-7">
       <div className="text-center flex flex-row justify-center items-center gap-2.5">
         <HorizontalLine />
           <h2 className="font-openSans text-branco font-bold text-xl">Sobre Nos</h2>

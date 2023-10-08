@@ -16,15 +16,14 @@ const BurgerMenu = ({onMenuClick}) => {
     }
 
     const handleMenuClick = () =>{
-        menuClick();
-        onMenuClick();
+        menuClick()
+        onMenuClick()
 
     }
 
 
   return (
     <button className="h-12 w-12  rounded flex flex-col justify-center items-center group z-50" onClick={handleMenuClick}  aria-label="Abrir/Fechar Menu aria-expanded={isOpen}">
-
          {/* Linha superior do menu hambúrguer */}
 
         <div 
@@ -59,3 +58,4 @@ const BurgerMenu = ({onMenuClick}) => {
 }
 
 export default BurgerMenu
+

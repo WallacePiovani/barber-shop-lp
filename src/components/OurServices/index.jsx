@@ -2,7 +2,7 @@ import HorizontalLine from "../HorizontalLine"
 
 const OurServices = () => {
   return (
-    <section className=" mb-16 text-center flex flex-col justify-center items-center gap-7 ">
+    <section id ="our-services"className="mb-16 text-center flex flex-col justify-center items-center gap-7 ">
         <div className="flex flex-row justify-center items-center gap-2.5 w-5/6">
             <HorizontalLine />
                 <h2 className="font-openSans text-branco font-bold text-2xl">Serviços</h2>

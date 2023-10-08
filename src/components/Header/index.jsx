@@ -1,3 +1,4 @@
+import { Link } from "react-scroll"
 import BurgerMenu from "../BurgerMenu"
 import FullScreenMenu from "../FullScreenMenu"
 import { useState, useEffect } from "react"
@@ -12,11 +13,17 @@ const Header = () => {
         setIsMenuOpen(!isMenuOpen);
     }
 
+    const closeMenu = () => {
+      setIsMenuOpen(false);
+    };
+
+
+
     useEffect(() => {
         const handleScroll = () => {
           if (!isMenuOpen) {
             // Atualize o estado com base na posição de rolagem
-            setIsTransparentBackground(window.scrollY <= 90);
+            setIsTransparentBackground(window.scrollY <= 70);
           }
         };
     
@@ -32,9 +39,20 @@ const Header = () => {
             isTransparentBackground ?"bg-transparent" : "bg-preto bg-opacity-70 backdrop-blur-lg "
         }`}>
             <div className="flex justify-between items-center mx-7 mt-4">
-                <a href="#" className="z-50 "><h1 className="font-openSans font-bold text-xl border border-marrom text-marrom p-3  mb-3 mt-3">BS</h1></a>
+                <Link 
+                  to = "home"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                  offset={-150}
+                  onClick={ () =>{
+                    closeMenu()
+                  }}    
+                  href="#" className="z-50 ">
+                  <h1 className="font-openSans font-bold text-xl border border-marrom text-marrom p-3  mb-3 mt-3">BS</h1>
+                </Link>
                 <BurgerMenu onMenuClick={toggleMenu}/>
-                {isMenuOpen && <FullScreenMenu/>}
+                {isMenuOpen && <FullScreenMenu closeMenu={closeMenu}/>}
             </div>
         </header>
     )
