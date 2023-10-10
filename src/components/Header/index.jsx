@@ -35,7 +35,7 @@ const Header = () => {
       }, [isMenuOpen]);
 
     return (
-        <header className={` sticky top-0 transition-all duration-300  ${
+        <header className={` sticky top-0 transition-all duration-300 z-50  ${
             isTransparentBackground ?"bg-transparent" : "bg-preto bg-opacity-70 backdrop-blur-lg "
         }`}>
             <div className="flex justify-between items-center mx-7 mt-4">
