@@ -48,8 +48,18 @@ const FullScreenMenu = ({closeMenu}) => {
             offset={-100}
             onClick={ () =>{
               closeMenu()
-            }}   className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer">Barbeiros</Link></li>
-            <li><Link className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer">Produtos</Link></li>
+            }}   
+            className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer">Barbeiros</Link></li>
+            <li><Link
+            to="products"
+            spy={true}
+            smooth={true}
+            duration={1000} 
+            offset={-100}
+            onClick={ () =>{
+              closeMenu()
+            }} 
+            className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer">Produtos</Link></li>
         </ul>
     </div>
   )

@@ -1,6 +1,6 @@
 import { useState } from "react"
 // eslint-disable-next-line react/prop-types
-const Card = ({ name, photo, experience, price }) => {
+const Card = ({ name, photo, experience, price, altImage}) => {
 
   const [showInfo, setShowInfo] = useState(false)
 
@@ -9,6 +9,7 @@ const Card = ({ name, photo, experience, price }) => {
       <img
         className="h-96 w-96  "
         src={photo}
+        alt={altImage}
       >
       </img>
       <div

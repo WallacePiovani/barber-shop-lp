@@ -4,14 +4,14 @@ import HorizontalLine from "../HorizontalLine"
 const Barbers = () => {
 
     const barbers = [
-        {name: 'Rodrigo Santana', photo: '/static/img/barber1.jpg', experience: '3 Anos', price: 'R$45'},
-        {name: 'Pedro Ricardo', photo:'/static/img/barber2.jpg', experience: '7 Anos', price: 'R$45'},
-        {name: 'Thiago Souza', photo:'/static/img/barber3.jpg', experience: '4 Anos', price: 'R$45'}
+        {name: 'Rodrigo Santana', photo: '/static/img/barber1.jpg', experience: '3 Anos', price: 'R$45', altImage:'Foto do barbeiro Rodrigo Santana' },
+        {name: 'Pedro Ricardo', photo:'/static/img/barber2.jpg', experience: '7 Anos', price: 'R$45', altImage:'Foto do Barbeiro Pedro Ricardo'},
+        {name: 'Thiago Souza', photo:'/static/img/barber3.jpg', experience: '4 Anos', price: 'R$45', altImage:'Foto do barbeiro Thiago Souza'}
     ]
 
   return (
     <>
-        <section id="barbers" className="flex flex-col gap-5 mb-5">
+        <section id="barbers" className="flex flex-col gap-5 mb-14">
             <div className="flex flex-row justify-center items-center gap-2.5">
                 <HorizontalLine />
                     <h2 className="font-openSans text-branco font-bold text-2xl">Barbeiros</h2>
@@ -25,6 +25,7 @@ const Barbers = () => {
                             photo={barber.photo}
                             experience ={barber.experience} 
                             price={barber.price}
+                            altImage={barber.altImage}
                         />
                     ))}   
             </div>
