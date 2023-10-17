@@ -10,7 +10,7 @@ const Products = () => {
         {name:'QOD - Pomada Capilar Killer' , productType:'Pomada', image:'/static/img/pomada.webp', altImage:'Imagem da Pomada da marca QOD'}
     ]
   return (
-    <section id="products" className="mb-14">
+    <section id="products" className="mb-28">
         <div className="flex flex-row justify-center items-center gap-2.5 mb-7">
             <HorizontalLine />
             <h3 className="font-openSans font-bold text-branco text-2xl">Produtos</h3>
