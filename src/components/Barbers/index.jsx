@@ -11,13 +11,13 @@ const Barbers = () => {
 
   return (
     <>
-        <section id="barbers" className="flex flex-col gap-5 mb-14">
+        <section id="barbers" className="flex flex-col gap-5 mb-14 ">
             <div className="flex flex-row justify-center items-center gap-2.5">
                 <HorizontalLine />
                     <h2 className="font-openSans text-branco font-bold text-2xl">Barbeiros</h2>
                 <HorizontalLine />
             </div>
-            <div className=" mx-2 grid grid-row-3 gap-3.5">
+            <div className="mx-2 grid grid-row-3 gap-3.5 justify-center sm:grid-cols-3 ">
                     {barbers.map((barber, index) =>(
                         <Card 
                             key={index}

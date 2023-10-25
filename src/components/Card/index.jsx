@@ -5,9 +5,9 @@ const Card = ({ name, photo, experience, price, altImage}) => {
   const [showInfo, setShowInfo] = useState(false)
 
   return (
-    <div className=" flex flex-col items-center shadow-md shadow-preto relative">
+    <div className=" flex flex-col items-center shadow-md shadow-preto relative w-fit h-fit">
       <img
-        className="h-96 w-96  "
+        className="h-96 w-96 sm:h-80"
         src={photo}
         alt={altImage}
       >
@@ -26,9 +26,9 @@ const Card = ({ name, photo, experience, price, altImage}) => {
           ${showInfo ? 'opacity-100' : 'opacity-0'
         }`}
       >
-        <h4 className="text-branco font-bold font-openSans text-3xl mb-5 ">{name}</h4>
-        <p className="text-branco2 font-openSans text-lg"><strong>Experiencia -</strong> {experience}</p>
-        <p className="text-branco2 font-openSans text-lg"><strong>Preço médio -</strong> {price}</p>
+        <h4 className="text-branco font-bold font-openSans text-3xl mb-5  text-center">{name}</h4>
+        <p className="text-branco2 font-openSans text-lg text-center"><strong>Experiencia -</strong> {experience}</p>
+        <p className="text-branco2 font-openSans text-lg text-center"><strong>Preço médio -</strong> {price}</p>
       </div>
     </div>
   )

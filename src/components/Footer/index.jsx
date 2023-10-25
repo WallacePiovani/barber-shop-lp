@@ -3,7 +3,7 @@ import { Link } from "react-scroll"
 const Footer = () => {
   return (
     <footer>
-        <section className="flex flex-col gap-4 mb-8">
+        <section className="flex flex-col gap-4 mb-2">
             <div className="flex flex-row justify-evenly items-center gap-4">
                 <a className="font-openSans font-bold text-5xl border border-marrom text-marrom p-6 mx-2">BS</a>
                 <div>
@@ -14,7 +14,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr className="mx-7 bg-branco2 "></hr>
-            <div className="flex justify-center item-center">
+            <div className="flex flex-col justify-center items-center">
                 <ul className="flex flex-row gap-4">
                     <li><Link
                         to = "home"
@@ -57,6 +57,7 @@ const Footer = () => {
                         className="font-openSans text-xs text-branco2">Produtos
                     </Link></li>
                 </ul>
+                <p className="font-openSans text-xs text-branco2 mt-8 opacity-40">Feito por:  Wallace Piovani</p>
             </div>
         </section>
     </footer>

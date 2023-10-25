@@ -16,7 +16,7 @@ const FullScreenMenu = ({closeMenu}) => {
               onClick={ () =>{
                 closeMenu()
               }}    
-              className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer">Inicio
+              className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer sm:text-2xl">Inicio
             </Link></li>
             <li><Link 
               to = "about-us"
@@ -27,7 +27,7 @@ const FullScreenMenu = ({closeMenu}) => {
               onClick={ () =>{
                 closeMenu()
               }}    
-              className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer">Sobre Nos
+              className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer sm:text-2xl">Sobre Nos
             </Link></li>
             <li><Link 
               to="our-services"
@@ -38,7 +38,7 @@ const FullScreenMenu = ({closeMenu}) => {
               onClick={ () =>{
                 closeMenu()
               }}  
-              className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer">Serviços
+              className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer sm:text-2xl">Serviços
             </Link></li>
             <li><Link
             to="barbers"
@@ -49,7 +49,7 @@ const FullScreenMenu = ({closeMenu}) => {
             onClick={ () =>{
               closeMenu()
             }}   
-            className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer">Barbeiros</Link></li>
+            className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer sm:text-2xl">Barbeiros</Link></li>
             <li><Link
             to="products"
             spy={true}
@@ -59,7 +59,7 @@ const FullScreenMenu = ({closeMenu}) => {
             onClick={ () =>{
               closeMenu()
             }} 
-            className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer">Produtos</Link></li>
+            className=" text-marrom text-xl hover:text-branco duration-300 cursor-pointer sm:text-2xl">Produtos</Link></li>
         </ul>
     </div>
   )

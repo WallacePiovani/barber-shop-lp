@@ -11,6 +11,9 @@ export default {
       },
       backgroundImage:{
         'hero-section-img': "url('src/assets/pexels-thgusstavo-santana-2040189.jpg')",
+      },
+      height: {
+        '128': '38rem',
       }
     },
     colors:{

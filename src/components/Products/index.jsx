@@ -8,6 +8,7 @@ const Products = () => {
         {name:'QOD - Beard Balm Classic' , productType:'Balm', image:'/static/img/balm.webp', altImage:'Imagem do Balm da marca QOD'},
         {name:'QOD - Loção Spice Whisky' , productType:'Pós-barba', image:'/static/img/posbarba.webp', altImage:'Imagem do Pós-barba da QOD'},
         {name:'QOD - Pomada Capilar Killer' , productType:'Pomada', image:'/static/img/pomada.webp', altImage:'Imagem da Pomada da marca QOD'}
+
     ]
   return (
     <section id="products" className="mb-28">
@@ -21,7 +22,7 @@ const Products = () => {
             <p className="text-sm text-branco2 font-openSans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, odit? Facere voluptas aliquam, recusandae fuga est provident amet, optio odio alias numquam accusamus vitae voluptates maiores animi similique placeat blanditiis.</p>
             <p className="text-xs font-openSans text-branco2">*Veja abaixo alguns dos produtos que utilizamos</p>
         </div>
-        <div className="grid grid-rows-4 gap-4 mx-8">
+        <div className="grid grid-rows-4 gap-4 mx-8 sm:grid-cols-2 sm:grid-rows-2">
             {products.map((product,index) => (
                 <ProductCard 
                     key={index}
