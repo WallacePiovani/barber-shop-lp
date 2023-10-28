@@ -4,10 +4,10 @@ import ProductCard from "../ProductCard"
 const Products = () => {
 
     const products = [
-        {name: 'QOD - Shampoo Old Black Whisky', productType: 'Shampoo', image: '/static/img/shampoo.webp', altImage: 'Imagem de shampoo da marca QOD'},
-        {name:'QOD - Beard Balm Classic' , productType:'Balm', image:'/static/img/balm.webp', altImage:'Imagem do Balm da marca QOD'},
-        {name:'QOD - Loção Spice Whisky' , productType:'Pós-barba', image:'/static/img/posbarba.webp', altImage:'Imagem do Pós-barba da QOD'},
-        {name:'QOD - Pomada Capilar Killer' , productType:'Pomada', image:'/static/img/pomada.webp', altImage:'Imagem da Pomada da marca QOD'}
+        {name: 'QOD - Shampoo Old Black Whisky', productType: 'Shampoo', image: '/static/img/shampoo.png', altImage: 'Imagem de shampoo da marca QOD'},
+        {name:'QOD - Beard Balm Classic' , productType:'Balm', image:'/static/img/balm.png', altImage:'Imagem do Balm da marca QOD'},
+        {name:'QOD - Loção Spice Whisky' , productType:'Pós-barba', image:'/static/img/posbarba.png', altImage:'Imagem do Pós-barba da QOD'},
+        {name:'QOD - Pomada Capilar Killer' , productType:'Pomada', image:'/static/img/pomada.png', altImage:'Imagem da Pomada da marca QOD'}
 
     ]
   return (

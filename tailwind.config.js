@@ -14,6 +14,13 @@ export default {
       },
       height: {
         '128': '38rem',
+        '125': '34rem',
+        '200': '50rem',
+      },
+      width: {
+        '128': '38rem',
+        '125': '34rem',
+        '200': '100rem',
       }
     },
     colors:{

@@ -7,15 +7,15 @@ import HorizontalLine from "../HorizontalLine";
 const AboutUs = () => {
 
   return (
-    <section id="about-us" className="bg-preto mb-16 text-center flex flex-col justify-center items-center gap-10 px-7">
+    <section id="about-us" className="bg-preto mb-16 text-center flex flex-col justify-center items-center gap-10 px-7 md:mb-24">
       <div className="text-center flex flex-row justify-center items-center gap-2.5">
         <HorizontalLine />
           <h2 className="font-openSans text-branco font-bold text-xl">Sobre Nos</h2>
         <HorizontalLine />
       </div>
-      <div className="flex flex-col gap-4  items-center justify-center">
+      <div className="flex flex-col gap-4  items-center justify-center md:flex-row">
         <div className="flex justify-center  ">
-          <img src={"/static/img/aboutus.jpg"} className="sm:h-128" alt="Foto de um barbeiro preparando cabelo de cliente para corte"></img>
+          <img src={"/static/img/aboutus.jpg"} className="sm:h-128 md:h-128 md:w-200" alt="Foto de um barbeiro preparando cabelo de cliente para corte"></img>
         </div>
         <div className="flex flex-col gap-4 items-center justify-center">
           <h3 className="font-openSans text-branco font-bold text-3xl ">"Mantendo viva a tradição dos clássicos cortes de cabelo  masculinos"</h3>
@@ -23,7 +23,7 @@ const AboutUs = () => {
           <p className="font-openSans text-branco2 text-sm">Duis ut diam quam nulla porttitor massa. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Eget arcu dictum varius duis at consectetur lorem donec massa. Non blandit massa enim nec dui nunc. Faucibus et molestie ac feugiat. Morbi tincidunt ornare.</p>    
           <p className="font-openSans text-branco2 text-sm"> Gravida rutrum quisque non tellus orci ac auctor. Sed sed risus pretium quam vulputate dignissim. Pretium lectus quam id leo in. Tellus orci ac auctor augue mauris augue neque.</p>    
           <p className="font-openSans text-branco2 text-sm"> Fringilla phasellus faucibus scelerisque eleifend donec. Pellentesque nec nam aliquam sem et tortor consequat. Eget aliquet nibh praesent tristique magna sit amet purus gravida.</p>    
-          <a href="#" className="bg-preto p-5 border border-solid border-marrom w-3/5 font-openSans text-branco2 text-sm text-center">Mais informações</a>
+          <a href="#" className="bg-preto p-5 border border-solid border-marrom w-3/5 font-openSans text-branco2 text-sm text-center sm:w-3/6">Mais informações</a>
         </div>
       </div>
 
