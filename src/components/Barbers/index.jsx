@@ -11,7 +11,7 @@ const Barbers = () => {
 
   return (
     <>
-        <section id="barbers" className="flex flex-col gap-5 mb-14 ">
+        <section id="barbers" className="flex flex-col gap-5 mb-14 md:mb-24">
             <div className="flex flex-row justify-center items-center gap-2.5">
                 <HorizontalLine />
                     <h2 className="font-openSans text-branco font-bold text-2xl">Barbeiros</h2>
