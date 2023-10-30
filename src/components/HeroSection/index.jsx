@@ -1,7 +1,7 @@
 
 const HeroSection = () => {
     return (
-        <section id = "home"className="flex flex-col px-7 mt-10 gap-2 mb-14 font-openSans sm:flex sm:flex-row-reverse sm:px-4 md:mb-24">
+        <section id = "home"className="flex flex-col px-7 mt-10 gap-2 mb-14 font-openSans sm:flex sm:flex-row-reverse sm:px-4 md:mb-24 lg:px-16">
             <div className="flex justify-center  md:h-128 md:w-200">
                 <img src={"/static/img/herosectionbanner.jpg"} alt="Imagem barbeiro terminando corte" className=""/>
             </div>
