@@ -17,7 +17,7 @@ const Barbers = () => {
                     <h2 className="font-openSans text-branco font-bold text-2xl">Barbeiros</h2>
                 <HorizontalLine />
             </div>
-            <div className="mx-2 grid grid-row-3 gap-3.5 justify-center sm:grid-cols-3 ">
+            <div className="mx-2 grid grid-row-3 gap-3.5 justify-center sm:grid-cols-3 lg:px-7">
                     {barbers.map((barber, index) =>(
                         <Card 
                             key={index}

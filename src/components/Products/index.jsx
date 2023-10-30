@@ -22,7 +22,7 @@ const Products = () => {
             <p className="text-sm text-branco2 font-openSans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, odit? Facere voluptas aliquam, recusandae fuga est provident amet, optio odio alias numquam accusamus vitae voluptates maiores animi similique placeat blanditiis.</p>
             <p className="text-xs font-openSans text-branco2">*Veja abaixo alguns dos produtos que utilizamos</p>
         </div>
-        <div className="grid grid-rows-4 gap-4 mx-8 sm:grid-cols-2 sm:grid-rows-2">
+        <div className="grid grid-rows-4 gap-4 mx-8 sm:grid-cols-2 sm:grid-rows-2 lg:px-24 xl:px-44">
             {products.map((product,index) => (
                 <ProductCard 
                     key={index}
