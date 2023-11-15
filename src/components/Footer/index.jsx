@@ -22,7 +22,7 @@ const Footer = () => {
                         smooth={true}
                         duration={1000}
                         offset={-100}
-                        className="font-openSans text-xs text-branco2">Inicio
+                        className="font-openSans text-xs text-branco2 cursor-pointer hover:text-branco duration-200">Inicio
                     </Link></li>
                     <li><Link
                         to = "about-us"
@@ -30,7 +30,7 @@ const Footer = () => {
                         smooth={true}
                         duration={1000}
                         offset={-100}
-                        className="font-openSans text-xs text-branco2">Sobre Nos
+                        className="font-openSans text-xs text-branco2 cursor-pointer hover:text-branco duration-200">Sobre Nos
                     </Link></li>
                     <li><Link
                         to="our-services"
@@ -38,7 +38,7 @@ const Footer = () => {
                         smooth={true}
                         duration={1000} 
                         offset={-100}
-                        className="font-openSans text-xs text-branco2">Serviços
+                        className="font-openSans text-xs text-branco2 cursor-pointer hover:text-branco duration-200">Serviços
                     </Link></li>
                     <li><Link 
                         to="barbers"
@@ -46,7 +46,7 @@ const Footer = () => {
                         smooth={true}
                         duration={1000} 
                         offset={-100}
-                        className="font-openSans text-xs text-branco2">Barbeiros
+                        className="font-openSans text-xs text-branco2 cursor-pointer hover:text-branco duration-200">Barbeiros
                     </Link></li>
                     <li><Link
                         to="products"
@@ -54,7 +54,7 @@ const Footer = () => {
                         smooth={true}
                         duration={1000} 
                         offset={-100}
-                        className="font-openSans text-xs text-branco2">Produtos
+                        className="font-openSans text-xs text-branco2 cursor-pointer hover:text-branco duration-200">Produtos
                     </Link></li>
                 </ul>
                 <p className="font-openSans text-xs text-branco2 mt-8 opacity-40">Feito por:  Wallace Piovani</p>
