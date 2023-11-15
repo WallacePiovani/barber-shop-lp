@@ -5,7 +5,7 @@ const Card = ({ name, photo, experience, price, altImage}) => {
   const [showInfo, setShowInfo] = useState(false)
 
   return (
-    <div className=" flex flex-col items-center shadow-md shadow-preto relative w-fit h-fit ">
+    <div className=" flex flex-col items-center shadow-md shadow-preto relative w-fit h-fit xl:w-auto xl:h-auto">
       <img
         className="h-96 w-96 sm:h-80 lg:h-96"
         src={photo}

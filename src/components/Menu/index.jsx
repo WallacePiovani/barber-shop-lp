@@ -10,7 +10,7 @@ const Menu = () => {
                 smooth={true}
                 duration={1000}
                 offset={-100}  
-                className=" text-marrom text-xl hover:text-branco duration-300 cursor- lg:text-lg">Inicio
+                className=" text-marrom text-xl cursor-pointer hover:text-branco decoration-2  duration-300 cursor- lg:text-lg">Inicio
                 </Link></li>
                 <li><Link 
                 to = "about-us"
@@ -18,7 +18,7 @@ const Menu = () => {
                 smooth={true}
                 duration={1000}
                 offset={-100}   
-                className=" text-marrom text-xl hover:text-branco duration-300 cursor- lg:text-lg">Sobre Nos
+                className=" text-marrom text-xl cursor-pointer hover:text-branco decoration-2 duration-300 cursor- lg:text-lg">Sobre Nos
                 </Link></li>
                 <li><Link 
                 to="our-services"
@@ -26,7 +26,7 @@ const Menu = () => {
                 smooth={true}
                 duration={1000} 
                 offset={-100}
-                className=" text-marrom text-xl hover:text-branco duration-300 cursor- lg:text-lg">Serviços
+                className=" text-marrom text-xl cursor-pointer hover:text-branco decoration-2 duration-300 cursor- lg:text-lg">Serviços
                 </Link></li>
                 <li><Link
                 to="barbers"
@@ -34,14 +34,14 @@ const Menu = () => {
                 smooth={true}
                 duration={1000} 
                 offset={-100}
-                className=" text-marrom text-xl hover:text-branco duration-300 cursor- lg:text-lg">Barbeiros</Link></li>
+                className=" text-marrom text-xl cursor-pointer hover:text-branco decoration-2 duration-300 cursor- lg:text-lg">Barbeiros</Link></li>
                 <li><Link
                 to="products"
                 spy={true}
                 smooth={true}
                 duration={1000} 
                 offset={-100}
-                className=" text-marrom text-xl hover:text-branco duration-300 cursor- lg:text-lg">Produtos</Link></li>
+                className=" text-marrom text-xl cursor-pointer hover:text-branco decoration-2 duration-300 cursor- lg:text-lg">Produtos</Link></li>
         </ul>
     </header>
   )

@@ -1,11 +1,11 @@
 
 const HeroSection = () => {
     return (
-        <section id = "home"className="flex flex-col px-7 mt-10 gap-2 mb-14 font-openSans sm:flex sm:flex-row-reverse sm:px-4 md:mb-24 lg:px-16">
-            <div className="flex justify-center  md:h-128 md:w-200">
-                <img src={"/static/img/herosectionbanner.jpg"} alt="Imagem barbeiro terminando corte" className=""/>
+        <section id = "home"className="flex flex-col px-7 mt-10 gap-2 mb-14 font-openSans sm:flex sm:flex-row-reverse sm:px-4 md:mb-24 lg:px-16 xl:px-28 xl:gap-4">
+            <div className="flex justify-center  ">
+                <img src={"/static/img/herosectionbanner.jpg"} alt="Imagem barbeiro terminando corte" className="md:h-128 md:w-200 xl:h-160 xl:w-4/4 2xl:h-180"/>
             </div>
-            <div className="flex flex-col gap-4 md:justify-center ">
+            <div className="flex flex-col gap-4 md:justify-center 2xl:gap-6 ">
                 <h1 className="text-5xl text-branco text-center ">Cortes clássicos e únicos para o seu estilo</h1>
                 <p className="text-branco2 text-sm mt-4 text-center">Na barbearia BS, nossa missão é oferecer a você mais do que um corte de cabelo. Uma experiência de estilo, relaxamento e confiança com nossos barbeiros talentosos, produtos de qualidade e atendimento excepcional.</p>
                 <p className="text-branco2 text-sm text-center">Estamos comprometidos em transformar a sua aparência e fazer você se sentir no seu melhor.</p>    

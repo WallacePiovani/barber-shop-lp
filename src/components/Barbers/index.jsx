@@ -17,7 +17,12 @@ const Barbers = () => {
                     <h2 className="font-openSans text-branco font-bold text-2xl">Barbeiros</h2>
                 <HorizontalLine />
             </div>
-            <div className="mx-2 grid grid-row-3 gap-3.5 justify-center sm:grid-cols-3 lg:px-7">
+            <div className="flex flex-col gap-2 mt-6">
+                <h3 className="text-center text-branco text-3xl font-bold">Profissionais com anos de experiencia!</h3>
+                <p className="text-center text-branco2 text-sm px-7 md:px-32 lg:px-40  2xl:px-96">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas repudiandae officia ullam accusamus voluptate! Fugiat iusto, totam reprehenderit repellendus assumenda perspiciatis harum. Totam tempora cum ipsa quod, numquam harum temporibus.</p>
+                <p className="text-center text-branco2 text-sm px-7 md:px-32 lg:px-40  2xl:px-96">Ea eligendi quibusdam neque quos labore, maiores iure sit amet!</p>
+            </div>
+            <div className="mx-2 grid grid-row-3 gap-3.5 justify-center self-center sm:grid-cols-3 lg:px-7 xl:px-16 xl:w-fit xl:gap-20 ">
                     {barbers.map((barber, index) =>(
                         <Card 
                             key={index}
@@ -29,6 +34,7 @@ const Barbers = () => {
                         />
                     ))}   
             </div>
+            
         </section>
     </>
   )

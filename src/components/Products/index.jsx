@@ -19,10 +19,10 @@ const Products = () => {
         </div>
         <div className="flex flex-col gap-5 mx-7 mb-8 text-center">
             <h2 className="text-branco2 font-openSans font-bold text-3xl">Trabalhamos apenas com produtos de qualidade!</h2>
-            <p className="text-sm text-branco2 font-openSans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, odit? Facere voluptas aliquam, recusandae fuga est provident amet, optio odio alias numquam accusamus vitae voluptates maiores animi similique placeat blanditiis.</p>
-            <p className="text-xs font-openSans text-branco2">*Veja abaixo alguns dos produtos que utilizamos</p>
+            <p className="text-sm text-branco2 font-openSans 2xl:px-72">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, odit? Facere voluptas aliquam, recusandae fuga est provident amet, optio odio alias numquam accusamus vitae voluptates maiores animi similique placeat blanditiis.</p>
+            <p className="text-xs font-openSans text-branco2 2xl:px-72">*Veja abaixo alguns dos produtos que utilizamos</p>
         </div>
-        <div className="grid grid-rows-4 gap-4 mx-8 sm:grid-cols-2 sm:grid-rows-2 lg:px-24 xl:px-44">
+        <div className="grid grid-rows-4 gap-4 mx-8 sm:grid-cols-2 sm:grid-rows-2 lg:px-24 xl:px-44 2xl:px-96">
             {products.map((product,index) => (
                 <ProductCard 
                     key={index}

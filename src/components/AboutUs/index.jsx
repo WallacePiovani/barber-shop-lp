@@ -7,15 +7,15 @@ import HorizontalLine from "../HorizontalLine";
 const AboutUs = () => {
 
   return (
-    <section id="about-us" className="bg-preto mb-16 text-center flex flex-col justify-center items-center gap-10 px-7 md:mb-24">
+    <section id="about-us" className="bg-preto mb-16 text-center flex flex-col justify-center items-center gap-10 px-7 md:mb-24 xl:px-24">
       <div className="text-center flex flex-row justify-center items-center gap-2.5">
         <HorizontalLine />
           <h2 className="font-openSans text-branco font-bold text-xl">Sobre Nos</h2>
         <HorizontalLine />
       </div>
-      <div className="flex flex-col gap-4  items-center justify-center md:flex-row">
+      <div className="flex flex-col gap-4  items-center justify-center md:flex-row xl:gap-10">
         <div className="flex justify-center  ">
-          <img src={"/static/img/aboutus.jpg"} className="sm:h-128 md:h-128 md:w-200" alt="Foto de um barbeiro preparando cabelo de cliente para corte"></img>
+          <img src={"/static/img/aboutus.jpg"} className="sm:h-128 md:h-128 md:w-200 xl:h-160 2xl:h-180" alt="Foto de um barbeiro preparando cabelo de cliente para corte"></img>
         </div>
         <div className="flex flex-col gap-4 items-center justify-center">
           <h3 className="font-openSans text-branco font-bold text-3xl ">"Mantendo viva a tradição dos clássicos cortes de cabelo  masculinos"</h3>
