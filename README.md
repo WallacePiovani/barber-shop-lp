@@ -1,11 +1,12 @@
-#Barbershop Landing Page
+# Barbershop Landing Page
 
-![image](https://imgur.com/qiJ33hm)
+![image](https://i.imgur.com/qiJ33hm.png)
 
 ## Ferramentas utilizadas:
 
 *React
-*TailwindCSS
+
+*Tailwindcss
 
 ## Feito por:
 
