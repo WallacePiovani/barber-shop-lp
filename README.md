@@ -8,6 +8,3 @@
 
 *Tailwindcss
 
-## Feito por:
-
-### Wallace Piovani
